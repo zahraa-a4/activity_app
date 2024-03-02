@@ -3,6 +3,10 @@ import { Image } from "expo-image";
 import { StyleSheet, Text, View, Pressable, Linking } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import { useNavigation } from "@react-navigation/native";
+import { Border, FontFamily, FontSize, Padding, Color } from "./GlobalStyles";
+import { supabase } from './libr/subabase';
+
+
 
 
 const ActivitiesDefult = () => {
